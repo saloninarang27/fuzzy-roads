@@ -1,4 +1,8 @@
-# Delhi Address Alchemy: RDR-Powered Road-Type Normalisation
+# Fuzzy Roads — IIA A2 Submission
+
+This folder is the complete, self-contained assignment package. The
+repository-level [`README.md`](../README.md) is the public project landing
+page; this README focuses on the files and workflow submitted for IIA A2.
 
 An Information Integration and Applications (IIA) assignment implementing
 road-type lookup and address normalisation for synthetic Delhi electoral-style
@@ -14,7 +18,7 @@ address data.
 - JSON and CSV lookup-table export
 - Chunked processing for large datasets
 
-## Key files
+## Submission files
 
 - `A2_Reviewed_Code.py` — reviewed implementation
 - `A2_LLM_Original_Code.py` — unmodified baseline
@@ -25,6 +29,10 @@ address data.
 - `A2_Street_Variant_Groups.csv` — discovered street variants
 - `road_type_lookup.json` / `road_type_lookup.csv` — generated lookup tables
 - `address_data_delhi_sample_100k.csv` — shareable sample dataset
+
+The root-level lookup files are convenience previews for the GitHub project
+page. The lookup files in this folder are the authoritative outputs associated
+with the assignment submission.
 
 ## Data note
 
