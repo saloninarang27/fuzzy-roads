@@ -1,0 +1,1091 @@
+{
+  "ROAD": {
+    "raw_variant": "Road",
+    "canonical": "Road",
+    "type": "T",
+    "frequency": 1432347,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "RD": {
+    "raw_variant": "RD",
+    "canonical": "Road",
+    "type": "T",
+    "frequency": 856619,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "ROD": {
+    "raw_variant": "Rod",
+    "canonical": "Road",
+    "type": "T",
+    "frequency": 114272,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "RAOD": {
+    "raw_variant": "Raod",
+    "canonical": "Road",
+    "type": "T",
+    "frequency": 56774,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "STREET": {
+    "raw_variant": "Street",
+    "canonical": "Street",
+    "type": "T",
+    "frequency": 382097,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "STR": {
+    "raw_variant": "Str",
+    "canonical": "Street",
+    "type": "T",
+    "frequency": 113502,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "STRT": {
+    "raw_variant": "Strt",
+    "canonical": "Street",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "STREAT": {
+    "raw_variant": "Streat",
+    "canonical": "Street",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "ST": {
+    "raw_variant": "ST",
+    "canonical": "Street",
+    "type": "T",
+    "frequency": 228894,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "MARG": {
+    "raw_variant": "Marg",
+    "canonical": "Marg",
+    "type": "T",
+    "frequency": 958990,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "MRG": {
+    "raw_variant": "Mrg",
+    "canonical": "Marg",
+    "type": "T",
+    "frequency": 171338,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "LANE": {
+    "raw_variant": "Lane",
+    "canonical": "Lane",
+    "type": "T",
+    "frequency": 400012,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "LN": {
+    "raw_variant": "LN",
+    "canonical": "Lane",
+    "type": "T",
+    "frequency": 114262,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "LNE": {
+    "raw_variant": "Lne",
+    "canonical": "Lane",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PATH": {
+    "raw_variant": "Path",
+    "canonical": "Path",
+    "type": "T",
+    "frequency": 170970,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PTH": {
+    "raw_variant": "Pth",
+    "canonical": "Path",
+    "type": "T",
+    "frequency": 56828,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "NAGAR": {
+    "raw_variant": "Nagar",
+    "canonical": "Nagar",
+    "type": "T",
+    "frequency": 2810547,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "NGR": {
+    "raw_variant": "NGR",
+    "canonical": "Nagar",
+    "type": "T",
+    "frequency": 456770,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "NAGR": {
+    "raw_variant": "Nagr",
+    "canonical": "Nagar",
+    "type": "T",
+    "frequency": 114159,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "NAGARA": {
+    "raw_variant": "Nagara",
+    "canonical": "Nagar",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "VIHAR": {
+    "raw_variant": "Vihar",
+    "canonical": "Vihar",
+    "type": "T",
+    "frequency": 1331148,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "VHR": {
+    "raw_variant": "Vhr",
+    "canonical": "Vihar",
+    "type": "T",
+    "frequency": 114814,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "VIHR": {
+    "raw_variant": "Vihr",
+    "canonical": "Vihar",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "ENCLAVE": {
+    "raw_variant": "Enclave",
+    "canonical": "Enclave",
+    "type": "T",
+    "frequency": 446069,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "ENCL": {
+    "raw_variant": "Encl",
+    "canonical": "Enclave",
+    "type": "T",
+    "frequency": 115018,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "ENCLV": {
+    "raw_variant": "Enclv",
+    "canonical": "Enclave",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "AVENUE": {
+    "raw_variant": "Avenue",
+    "canonical": "Avenue",
+    "type": "T",
+    "frequency": 171707,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "AVE": {
+    "raw_variant": "Ave",
+    "canonical": "Avenue",
+    "type": "T",
+    "frequency": 114251,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "AVNUE": {
+    "raw_variant": "Avnue",
+    "canonical": "Avenue",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CROSS": {
+    "raw_variant": "Cross",
+    "canonical": "Cross",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CRS": {
+    "raw_variant": "Crs",
+    "canonical": "Cross",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CRSS": {
+    "raw_variant": "Crss",
+    "canonical": "Cross",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "XING": {
+    "raw_variant": "Xing",
+    "canonical": "Cross",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "MAIN": {
+    "raw_variant": "Main",
+    "canonical": "Main",
+    "type": "T",
+    "frequency": 169689,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "RING": {
+    "raw_variant": "Ring",
+    "canonical": "Ring",
+    "type": "T",
+    "frequency": 151678,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BYPASS": {
+    "raw_variant": "Bypass",
+    "canonical": "Bypass",
+    "type": "T",
+    "frequency": 56999,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BY-PASS": {
+    "raw_variant": "By-pass",
+    "canonical": "Bypass",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BYEPASS": {
+    "raw_variant": "Byepass",
+    "canonical": "Bypass",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "HIGHWAY": {
+    "raw_variant": "Highway",
+    "canonical": "Highway",
+    "type": "T",
+    "frequency": 57303,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "HWY": {
+    "raw_variant": "Hwy",
+    "canonical": "Highway",
+    "type": "T",
+    "frequency": 57076,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "HW": {
+    "raw_variant": "HW",
+    "canonical": "Highway",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "EXPRESSWAY": {
+    "raw_variant": "Expressway",
+    "canonical": "Expressway",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "EXPWY": {
+    "raw_variant": "Expwy",
+    "canonical": "Expressway",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "EXPY": {
+    "raw_variant": "Expy",
+    "canonical": "Expressway",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "EXTENSION": {
+    "raw_variant": "Extension",
+    "canonical": "Extension",
+    "type": "T",
+    "frequency": 273812,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "EXTN": {
+    "raw_variant": "Extn",
+    "canonical": "Extension",
+    "type": "T",
+    "frequency": 114210,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "EXT": {
+    "raw_variant": "Ext",
+    "canonical": "Extension",
+    "type": "T",
+    "frequency": 56940,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CHOWK": {
+    "raw_variant": "Chowk",
+    "canonical": "Chowk",
+    "type": "T",
+    "frequency": 422077,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CHWK": {
+    "raw_variant": "Chwk",
+    "canonical": "Chowk",
+    "type": "T",
+    "frequency": 57054,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CHAWK": {
+    "raw_variant": "Chawk",
+    "canonical": "Chowk",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BAZAR": {
+    "raw_variant": "Bazar",
+    "canonical": "Bazar",
+    "type": "T",
+    "frequency": 268914,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BZR": {
+    "raw_variant": "Bzr",
+    "canonical": "Bazar",
+    "type": "T",
+    "frequency": 114146,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BAAZAR": {
+    "raw_variant": "Baazar",
+    "canonical": "Bazar",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "GALI": {
+    "raw_variant": "Gali",
+    "canonical": "Gali",
+    "type": "T",
+    "frequency": 284712,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "GALLI": {
+    "raw_variant": "Galli",
+    "canonical": "Gali",
+    "type": "T",
+    "frequency": 113826,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "GULLY": {
+    "raw_variant": "Gully",
+    "canonical": "Gully",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "GLLY": {
+    "raw_variant": "Glly",
+    "canonical": "Gully",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "COMPOUND": {
+    "raw_variant": "Compound",
+    "canonical": "Compound",
+    "type": "T",
+    "frequency": 57075,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CMPD": {
+    "raw_variant": "Cmpd",
+    "canonical": "Compound",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "GARDEN": {
+    "raw_variant": "Garden",
+    "canonical": "Garden",
+    "type": "T",
+    "frequency": 410570,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "GDN": {
+    "raw_variant": "Gdn",
+    "canonical": "Garden",
+    "type": "T",
+    "frequency": 56883,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "GRDN": {
+    "raw_variant": "Grdn",
+    "canonical": "Garden",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PARK": {
+    "raw_variant": "Park",
+    "canonical": "Park",
+    "type": "T",
+    "frequency": 291405,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PRK": {
+    "raw_variant": "Prk",
+    "canonical": "Park",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "SQUARE": {
+    "raw_variant": "Square",
+    "canonical": "Square",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "SQ": {
+    "raw_variant": "Sq",
+    "canonical": "Square",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PLACE": {
+    "raw_variant": "Place",
+    "canonical": "Place",
+    "type": "T",
+    "frequency": 39915,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PL": {
+    "raw_variant": "Pl",
+    "canonical": "Place",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "DRIVE": {
+    "raw_variant": "Drive",
+    "canonical": "Drive",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "DRV": {
+    "raw_variant": "Drv",
+    "canonical": "Drive",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "COURT": {
+    "raw_variant": "Court",
+    "canonical": "Court",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CT": {
+    "raw_variant": "Ct",
+    "canonical": "Court",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CRT": {
+    "raw_variant": "Crt",
+    "canonical": "Court",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CHAWL": {
+    "raw_variant": "Chawl",
+    "canonical": "Chawl",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CHWAL": {
+    "raw_variant": "Chwal",
+    "canonical": "Chawl",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "KUNJ": {
+    "raw_variant": "Kunj",
+    "canonical": "Kunj",
+    "type": "T",
+    "frequency": 40054,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "KNJ": {
+    "raw_variant": "Knj",
+    "canonical": "Kunj",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PURAM": {
+    "raw_variant": "Puram",
+    "canonical": "Puram",
+    "type": "T",
+    "frequency": 40310,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PRM": {
+    "raw_variant": "Prm",
+    "canonical": "Puram",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BAGH": {
+    "raw_variant": "Bagh",
+    "canonical": "Bagh",
+    "type": "T",
+    "frequency": 357378,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BGH": {
+    "raw_variant": "Bgh",
+    "canonical": "Bagh",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "MOHALLA": {
+    "raw_variant": "Mohalla",
+    "canonical": "Mohalla",
+    "type": "T",
+    "frequency": 171303,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "MOH": {
+    "raw_variant": "Moh",
+    "canonical": "Mohalla",
+    "type": "T",
+    "frequency": 57155,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "MOHHALA": {
+    "raw_variant": "Mohhala",
+    "canonical": "Mohalla",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "MOHALA": {
+    "raw_variant": "Mohala",
+    "canonical": "Mohalla",
+    "type": "T",
+    "frequency": 0,
+    "source": "SEED_ROAD",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "COLONY": {
+    "raw_variant": "Colony",
+    "canonical": "Colony",
+    "type": "A",
+    "frequency": 1611481,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CLNY": {
+    "raw_variant": "Clny",
+    "canonical": "Colony",
+    "type": "A",
+    "frequency": 107956,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "COLNY": {
+    "raw_variant": "Colny",
+    "canonical": "Colony",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "SECTOR": {
+    "raw_variant": "Sector",
+    "canonical": "Sector",
+    "type": "A",
+    "frequency": 1078589,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "SEC": {
+    "raw_variant": "Sec",
+    "canonical": "Sector",
+    "type": "A",
+    "frequency": 602047,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "SECT": {
+    "raw_variant": "Sect",
+    "canonical": "Sector",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "SCTR": {
+    "raw_variant": "Sctr",
+    "canonical": "Sector",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BLOCK": {
+    "raw_variant": "Block",
+    "canonical": "Block",
+    "type": "A",
+    "frequency": 864622,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BLK": {
+    "raw_variant": "Blk",
+    "canonical": "Block",
+    "type": "A",
+    "frequency": 215396,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BLCK": {
+    "raw_variant": "Blck",
+    "canonical": "Block",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PHASE": {
+    "raw_variant": "Phase",
+    "canonical": "Phase",
+    "type": "A",
+    "frequency": 550538,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PH": {
+    "raw_variant": "Ph",
+    "canonical": "Phase",
+    "type": "A",
+    "frequency": 107707,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "POCKET": {
+    "raw_variant": "Pocket",
+    "canonical": "Pocket",
+    "type": "A",
+    "frequency": 323737,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "PKT": {
+    "raw_variant": "Pkt",
+    "canonical": "Pocket",
+    "type": "A",
+    "frequency": 107884,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "APARTMENTS": {
+    "raw_variant": "Apartments",
+    "canonical": "Apartments",
+    "type": "A",
+    "frequency": 215558,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "APARTMENT": {
+    "raw_variant": "Apartment",
+    "canonical": "Apartments",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "APT": {
+    "raw_variant": "Apt",
+    "canonical": "Apartments",
+    "type": "A",
+    "frequency": 108237,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "APTS": {
+    "raw_variant": "Apts",
+    "canonical": "Apartments",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "TOWERS": {
+    "raw_variant": "Towers",
+    "canonical": "Towers",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "TOWER": {
+    "raw_variant": "Tower",
+    "canonical": "Towers",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "TWR": {
+    "raw_variant": "Twr",
+    "canonical": "Towers",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "COMPLEX": {
+    "raw_variant": "Complex",
+    "canonical": "Complex",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "CMPLX": {
+    "raw_variant": "Cmplx",
+    "canonical": "Complex",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "SOCIETY": {
+    "raw_variant": "Society",
+    "canonical": "Society",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "SOC": {
+    "raw_variant": "Soc",
+    "canonical": "Society",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "RESIDENCY": {
+    "raw_variant": "Residency",
+    "canonical": "Residency",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "RESDY": {
+    "raw_variant": "Resdy",
+    "canonical": "Residency",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "RSDNCY": {
+    "raw_variant": "Rsdncy",
+    "canonical": "Residency",
+    "type": "A",
+    "frequency": 0,
+    "source": "SEED_AREA",
+    "match_score": 1.0,
+    "match_method": "exact"
+  },
+  "BAZZAR": {
+    "raw_variant": "Bazzar",
+    "canonical": "Bazar",
+    "type": "T",
+    "frequency": 57555,
+    "source": "CORPUS_MINED",
+    "match_score": 0.9611,
+    "match_method": "jaro_winkler"
+  },
+  "VIHRR": {
+    "raw_variant": "Vihrr",
+    "canonical": "Vihar",
+    "type": "T",
+    "frequency": 57288,
+    "source": "CORPUS_MINED",
+    "match_score": 0.96,
+    "match_method": "jaro_winkler"
+  },
+  "ROOD": {
+    "raw_variant": "Rood",
+    "canonical": "Road",
+    "type": "T",
+    "frequency": 57226,
+    "source": "CORPUS_MINED",
+    "match_score": 0.9333,
+    "match_method": "jaro_winkler"
+  },
+  "GALLEE": {
+    "raw_variant": "Gallee",
+    "canonical": "Gali",
+    "type": "T",
+    "frequency": 57223,
+    "source": "CORPUS_MINED",
+    "match_score": 0.8933,
+    "match_method": "jaro_winkler"
+  },
+  "STREAAT": {
+    "raw_variant": "Streaat",
+    "canonical": "Street",
+    "type": "T",
+    "frequency": 57166,
+    "source": "CORPUS_MINED",
+    "match_score": 0.9714,
+    "match_method": "jaro_winkler"
+  },
+  "ENCVE": {
+    "raw_variant": "Encve",
+    "canonical": "Enclave",
+    "type": "T",
+    "frequency": 56957,
+    "source": "CORPUS_MINED",
+    "match_score": 0.9333,
+    "match_method": "jaro_winkler"
+  },
+  "MRGG": {
+    "raw_variant": "Mrgg",
+    "canonical": "Marg",
+    "type": "T",
+    "frequency": 56808,
+    "source": "CORPUS_MINED",
+    "match_score": 0.9417,
+    "match_method": "jaro_winkler"
+  },
+  "NAGGR": {
+    "raw_variant": "Naggr",
+    "canonical": "Nagar",
+    "type": "T",
+    "frequency": 56785,
+    "source": "CORPUS_MINED",
+    "match_score": 0.9533,
+    "match_method": "jaro_winkler"
+  }
+}

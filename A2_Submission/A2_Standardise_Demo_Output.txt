@@ -1,0 +1,90 @@
+======================================================================
+  PART 1: Slide-style address pairs - similarity BEFORE vs AFTER
+======================================================================
+
+  A raw : 344 Block I, Sarojni Ngr, New Delhi, 110023
+  B raw : 344 Blk I, Sarojini Nagar, New Delhi, 110023
+  A std : 344 BLOCK I SAROJNI NAGAR NEW DELHI 110023
+  B std : 344 BLOCK I SAROJINI NAGAR NEW DELHI 110023
+  Jaccard      0.455 -> 0.778
+  Jaro-Winkler 0.912 -> 0.952
+  Exact match after standardisation: NO
+  Monge-Elkan (JW)  0.993
+  Fuzzy match (every word JW >= 0.9): YES  [SAROJNI~SAROJINI JW=0.946]
+
+  A raw : 13B, Link Rd, Versova, Delhi
+  B raw : 13B, Link Road, Versova, Delhi
+  A std : 13B LINK ROAD VERSOVA DELHI
+  B std : 13B LINK ROAD VERSOVA DELHI
+  Jaccard      0.667 -> 1.000
+  Jaro-Winkler 0.953 -> 1.000
+  Exact match after standardisation: YES
+  Monge-Elkan (JW)  1.000
+  Fuzzy match (every word JW >= 0.9): YES
+
+  A raw : H.No. 12, Aruna Asaf Ali Raod, Sarojini Ngr, Delhi, 110023
+  B raw : H.No. 12, Aruna Asaf Ali Road, Sarojini Nagar, Delhi, 110023
+  A std : HNO 12 ARUNA ASAF ALI ROAD SAROJINI NAGAR DELHI 110023
+  B std : HNO 12 ARUNA ASAF ALI ROAD SAROJINI NAGAR DELHI 110023
+  Jaccard      0.667 -> 1.000
+  Jaro-Winkler 0.989 -> 1.000
+  Exact match after standardisation: YES
+  Monge-Elkan (JW)  1.000
+  Fuzzy match (every word JW >= 0.9): YES
+
+  A raw : 55 Y Mandir Ln, Sarojini Nagar, New Delhi 110023
+  B raw : 55 Y Mandir Lane, Sarojini Nagar, New Delhi 110023
+  A std : 55 Y MANDIR LANE SAROJINI NAGAR NEW DELHI 110023
+  B std : 55 Y MANDIR LANE SAROJINI NAGAR NEW DELHI 110023
+  Jaccard      0.800 -> 1.000
+  Jaro-Winkler 0.948 -> 1.000
+  Exact match after standardisation: YES
+  Monge-Elkan (JW)  1.000
+  Fuzzy match (every word JW >= 0.9): YES
+
+  A raw : 344 Block I, Sarojini Nagar, New Delhi, 110023
+  B raw : 345 Blk I, Sarojini Ngr, New Delhi, 110023
+  A std : 344 BLOCK I SAROJINI NAGAR NEW DELHI 110023
+  B std : 345 BLOCK I SAROJINI NAGAR NEW DELHI 110023
+  Jaccard      0.455 -> 0.778
+  Jaro-Winkler 0.934 -> 0.988
+  Exact match after standardisation: NO
+  Monge-Elkan (JW)  0.875
+  Fuzzy match (every word JW >= 0.9): NO
+
+======================================================================
+  PART 2: Matching inside the dataset (first 5,000,000 rows)
+======================================================================
+  Unique raw addresses          : 4,999,947
+  Unique standardised addresses : 4,999,891
+  Standardised forms shared by 2+ different raw addresses: 56
+  Examples (different raw text -> same standardised address):
+
+    EWS-39, Shakarpur Khas, Rafi Ahmed Kidwai Chowk, Delhi, 110076
+    EWS-39, Shakarpur Khas, Rafi Ahmed Kidwai Chwk, Delhi, 110076
+    => EWS-39 SHAKARPUR KHAS RAFI AHMED KIDWAI CHOWK DELHI 110076
+
+    H.No. 338, Sansad Marg, Nehru Rd, Delhi, 110059
+    H.No. 338, Sansad Marg, Nehru Road, Delhi, 110059
+    => HNO 338 SANSAD MARG NEHRU ROAD DELHI 110059
+
+    Flat 897, Kailash Colony Sector, Acharya Rd, Delhi, 110043
+    Flat 897, Kailash Colony Sector, Acharya Road, Delhi, 110043
+    => FLAT 897 KAILASH COLONY SECTOR ACHARYA ROAD DELHI 110043
+
+    EWS-42, Ambedkar Nagar, Guru Harkishan Naggr, Delhi, 110070
+    EWS-42, Ambedkar Nagar, Guru Harkishan Ngr, Delhi, 110070
+    => EWS-42 AMBEDKAR NAGAR GURU HARKISHAN NAGAR DELHI 110070
+
+    MIG-62, Sunder Nagar, Delhi-Noida Gali, Delhi, 110078
+    MIG-62, Sunder Nagar, Delhi-Noida Galli, Delhi, 110078
+    => MIG-62 SUNDER NAGAR DELHI-NOIDA GALI DELHI 110078
+
+  Street names with 2+ raw spellings: 944  (e.g.)
+    NORTHERN PERIPHERAL ROAD     <- Northern Peripheral Road, Northern Peripheral Rd, Northern Peripheral Rd., Northern Peripheral Rod, Northern Peripheral Raod, Northern Peripheral Rood
+    BOSE ROAD                    <- Bose Road, Bose Rd, Bose Rd., Bose Rod, Bose Raod, Bose Rood
+    NETAJI ROAD                  <- Netaji Road, Netaji Rd, Netaji Rd., Netaji Rod, Netaji Rood, Netaji Raod
+
+[EXPORT] A2_Matched_Address_Pairs.csv  (56 pairs)
+[EXPORT] A2_Street_Variant_Groups.csv  (944 groups)
+[DONE] 137.2s

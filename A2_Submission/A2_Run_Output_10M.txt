@@ -1,0 +1,115 @@
+PS C:\Users\hp\Desktop\M.Tech CSE\3rd Semester CSE\IIA\Quiz\A2> python A2_reviewed.py
+=================================================================
+  IIA A2 — Road Type Lookup from Delhi Electoral Addresses
+  DATA: Synthetic (real Delhi locality/street names, hand-curated)
+  METHODS: Exact match | Jaro-Winkler | Soundex | RDR | Size-filter
+=================================================================
+
+=================================================================
+  DEMO: Address -> Tokens -> Pattern  (slide 22 method)
+=================================================================
+
+  RAW     : 127 Mahima Towers Mahatma Gandhi Road Calcutta
+  PATTERN : ^+B++T+
+  TAGGED  : ['TOWERS->(A)Towers', 'ROAD->(T)Road']
+
+  RAW     : 344 Block-C Aruna Asaf Ali Rd Sarojini Nagar New Delhi Delhi 110070
+  PATTERN : ^++++T+TCCP
+  TAGGED  : ['RD->(T)Road', 'NAGAR->(T)Nagar']
+
+  RAW     : I-344, Sarojini Nagar, N Delhi, 110023
+  PATTERN : ++T+CP
+  TAGGED  : ['NAGAR->(T)Nagar']
+
+  RAW     : H.No. 23 St John St Andrews Colony Bawana Delhi
+  PATTERN : +^++++A+C
+  TAGGED  : ['COLONY->(A)Colony']
+
+  RAW     : 344 Block I, Sarojni Ngr, New Delhi, 110023
+  PATTERN : ^A++TCP
+  TAGGED  : ['BLOCK->(A)Block', 'NGR->(T)Nagar']
+
+  RAW     : H171 Valecha Apartments Saki Naka, New Delhi 110020
+  PATTERN : ++B++CP
+  TAGGED  : ['APARTMENTS->(A)Apartments']
+
+  RAW     : 55 Y Mandir Lane Sarojini Nagar New Delhi 110023
+  PATTERN : ^++T+TCP
+  TAGGED  : ['LANE->(T)Lane', 'NAGAR->(T)Nagar']
+
+  RAW     : Dr Rajendra Prasad Rd Near Patel Chowk Delhi 110001
+  PATTERN : +++T++TCP
+  TAGGED  : ['RD->(T)Road', 'CHOWK->(T)Chowk']
+
+  RAW     : Pt Pant Marg Connaught Place New Delhi 110001
+  PATTERN : ++T+TCP
+  TAGGED  : ['MARG->(T)Marg', 'PLACE->(T)Place']
+
+  RAW     : QR-344 RK Puram Sector 4 New Delhi 110022
+  PATTERN : ++TA^CP
+  TAGGED  : ['PURAM->(T)Puram', 'SECTOR->(A)Sector']
+=================================================================
+
+[STEP 1] Loading / generating 10,000,000 address records ...
+[DATA] Found existing address_data_delhi.csv (10,000,000 rows) ...
+[INFO]  10,000,000 records ready in address_data_delhi.csv.
+
+[STEP 2] Building road-type lookup dictionary ...
+[DICT] Scanning addresses for road-type tokens ...
+  Scanned  10,000,000 / 10,000,000 addresses (100%)       
+[DICT] Running Jaro-Winkler/Soundex on 4,610 unknown tokens with freq >= 200 ...
+[DICT] Corpus-mined new variants: 8
+
+=================================================================
+  ROAD-TYPE LOOKUP DICTIONARY — STATISTICS
+=================================================================
+  City            : Delhi, Delhi
+  Address records :     10,000,000
+  Total entries   :            121
+    Road types (T):             93
+    Area types (A):             28
+  SEED_ROAD       :             85
+  SEED_AREA       :             28
+  CORPUS_MINED    :              8
+  RDR exceptions  :              4
+-----------------------------------------------------------------
+  Road type (T) canonicals by variant count:
+    Street                    6 variants
+    Road                      5 variants
+    Nagar                     5 variants
+    Vihar                     4 variants
+    Enclave                   4 variants
+    Cross                     4 variants
+    Bazar                     4 variants
+    Mohalla                   4 variants
+    Marg                      3 variants
+    Lane                      3 variants
+    Avenue                    3 variants
+    Bypass                    3 variants
+    Highway                   3 variants
+    Expressway                3 variants
+    Extension                 3 variants
+-----------------------------------------------------------------
+  Area type (A) canonicals:
+    Sector                    4 variants
+    Apartments                4 variants
+    Colony                    3 variants
+    Block                     3 variants
+    Towers                    3 variants
+    Residency                 3 variants
+    Phase                     2 variants
+    Pocket                    2 variants
+    Complex                   2 variants
+    Society                   2 variants
+=================================================================
+
+  RDR saint/title exceptions caught:
+    Token='ST'  Right='JOHN'  Rule=EXCEPTION:saint_right
+    Token='ST'  Right='ANDREWS'  Rule=EXCEPTION:saint_right
+    Token='ST'  Right='JOHN'  Rule=EXCEPTION:saint_right
+    Token='ST'  Right='ANDREWS'  Rule=EXCEPTION:saint_right
+[EXPORT] JSON -> road_type_lookup.json  (121 entries)
+[EXPORT] CSV  -> road_type_lookup.csv  (121 entries)
+
+[DONE] 295.6s   Output: C:\Users\hp\Desktop\M.Tech CSE\3rd Semester CSE\IIA\Quiz\A2
+PS C:\Users\hp\Desktop\M.Tech CSE\3rd Semester CSE\IIA\Quiz\A2> 

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Large generated input; use the included sample or regenerate locally.
+address_data_delhi.csv
+
+# Local/generated run artifacts.
+*.log
+*.tmp

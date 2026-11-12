@@ -1,0 +1,26 @@
+PROMPT GIVEN TO THE LLM
+========================
+Context:
+  Course   : Information Integration and Applications (IIA), M.Tech CSE Sem 3
+  Topic    : Week 8 — Composite Attribute Normalisation, RDR, Lookup Tables
+  Task     : Home Assignment (2 marks), due 19 October 2026
+
+Prompt:
+-------
+I am building an address-normalisation system for Indian electoral address data
+(Delhi voter rolls, roughly 10 million address records).
+
+Write a Python script that:
+  1. Loads a CSV file called address_data_delhi.csv that has a column called
+     'address' containing raw Indian postal addresses.
+  2. Tokenises each address by splitting on whitespace and common punctuation.
+  3. Looks up each token in a predefined dictionary of road-type keywords —
+     include at minimum: Road, Rd, St, Street, Marg, Lane, Path, Nagar,
+     Colony, Sector, Vihar, Enclave, Block, Avenue, Bypass, Highway,
+     Chowk, Gali, Mohalla, Bazar, Extension, and their common variants.
+  4. Counts how often each road-type variant appears across all addresses.
+  5. Builds a lookup dictionary that maps every raw variant to its canonical
+     form (e.g. Rd -> Road, Ngr -> Nagar, St -> Street).
+  6. Prints the resulting lookup table.
+
+Keep the code simple and readable.

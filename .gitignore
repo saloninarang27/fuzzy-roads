@@ -1,0 +1,13 @@
+A2_Submission/__pycache__/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Large generated input; use A2_Submission/address_data_delhi_sample_100k.csv
+# or regenerate the full synthetic dataset locally.
+address_data_delhi.csv
+
+*.log
+*.tmp
